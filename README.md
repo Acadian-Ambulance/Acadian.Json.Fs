@@ -1,6 +1,6 @@
 # Acadian.Json.Fs
 
-Adds extensions for Json
+Adds extensions for Newtonsoft.Json
 
 ## Dependencies
 - just 0.9.5
@@ -10,7 +10,9 @@ Adds extensions for Json
 
 ## Module Extensions
 
-This library extends several core modules:
+Adds FsJsonConverters:
+  - OptionConverter
 
-- `Task` has additions such as map and bind
+  Ex:
+  > let jsons = JsonConvert.SerializeObject(items, OptionConverter())
 
