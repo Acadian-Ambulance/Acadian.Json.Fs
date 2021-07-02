@@ -13,7 +13,7 @@ type OptionConverter() =
 
   override x.WriteJson(writer, value, serializer) =
     let value =
-      if value = null then
+      if isNull value then
         null
       else
         let _, fields =
@@ -38,7 +38,7 @@ type OptionConverter() =
 
     let cases = FSharpType.GetUnionCases(t)
 
-    if value = null then
+    if isNull value then
       FSharpValue.MakeUnion(cases.[0], [||])
     else
       FSharpValue.MakeUnion(cases.[1], [| value |])
