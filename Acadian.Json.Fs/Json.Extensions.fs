@@ -11,9 +11,9 @@ module JsonExtensions =
     match x with
     | null -> null
     | _ ->
-      match x.GetType().GetProperty("Value") with
-      | null -> x
-      | prop -> prop.GetValue(x)
+        match x.GetType().GetProperty("Value") with
+        | null -> x
+        | prop -> prop.GetValue(x)
 
   let (+>) (map: Map<string, obj>) (key, value) = map.Add(key, extractValue value)
   let singleParam (key, value) = (Map.empty) +> (key, value)

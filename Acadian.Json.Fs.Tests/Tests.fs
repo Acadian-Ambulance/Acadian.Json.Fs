@@ -5,4 +5,3 @@ open Expecto.Flip
 
 [<Tests>]
 let tests = testList "Tests" []
-
