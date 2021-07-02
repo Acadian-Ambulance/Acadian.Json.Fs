@@ -1,11 +1,11 @@
-namespace Acadian.Dapper.Fs
+namespace Acadian.Json.Fs
 
 [<AutoOpen>]
-module DapperExtensions =
+module JsonExtensions =
 
   open System
   open System.Data.SqlClient
-  open Dapper
+  open Json
 
   let extractValue (x: obj) =
     match x with

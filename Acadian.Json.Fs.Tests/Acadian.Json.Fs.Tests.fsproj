@@ -19,6 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Acadian.Dapper.Fs\Acadian.Dapper.Fs.fsproj" />
+    <ProjectReference Include="..\Acadian.Json.Fs\Acadian.Json.Fs.fsproj" />
   </ItemGroup>
 </Project>

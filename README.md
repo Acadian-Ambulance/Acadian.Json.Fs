@@ -1,6 +1,6 @@
-# Acadian.Dapper.Fs
+# Acadian.Json.Fs
 
-Adds extensions for Dapper
+Adds extensions for Json
 
 ## Dependencies
 - just 0.9.5

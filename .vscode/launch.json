@@ -9,7 +9,7 @@
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
-      "program": "${workspaceFolder}/Acadian.Dapper.Fs/bin/Debug/netstandard1.6/Acadian.Dapper.Fs.dll",
+      "program": "${workspaceFolder}/Acadian.Json.Fs/bin/Debug/netstandard1.6/Acadian.Json.Fs.dll",
       "args": [],
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",

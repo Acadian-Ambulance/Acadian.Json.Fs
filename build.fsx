@@ -10,7 +10,7 @@ open Fake.DotNet
 open Fake.BuildServer
 open Fake.DotNet.NuGet.NuGet
 
-let packageProject = "Acadian.Dapper.Fs"
+let packageProject = "Acadian.Json.Fs"
 
 BuildServer.install [TeamCity.Installer]
 
