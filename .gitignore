@@ -1,0 +1,24 @@
+# build output
+bin/
+obj/
+nupkgs/
+
+# Visual Studio code
+.ionide/
+
+# Visual Studio
+*.suo
+*.user
+*.sln.docstates
+.vs/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Jetbrains IDE
+.idea/
+
+# FAKE
+.fake/
