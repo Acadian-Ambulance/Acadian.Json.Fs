@@ -2,7 +2,7 @@ module Tests
 
 open Expecto
 open Expecto.Flip
-open FsJsonConverters
+open Acadian.Json.Fs.FsJsonConverters
 open Newtonsoft.Json
 
 type Item = {
