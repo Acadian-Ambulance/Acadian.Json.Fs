@@ -10,7 +10,7 @@ Adds extensions for Newtonsoft.Json
 
 ## Module Extensions
 
-Adds FsJsonConverters:
+Adds JsonConverters:
   - OptionConverter
 
   Ex:

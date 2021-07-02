@@ -2,7 +2,7 @@ module Tests
 
 open Expecto
 open Expecto.Flip
-open Acadian.Json.Fs.FsJsonConverters
+open Acadian.Json.Fs.JsonConverters
 open Newtonsoft.Json
 
 type Item = {
@@ -12,7 +12,7 @@ type Item = {
 
 [<Tests>]
 let tests = testList "Tests" [
-  testList "FsJsonConverters.OptionConverter" [
+  testList "JsonConverters.OptionConverter" [
     test "Test converting a list of items with optional members to json" {
       let items = [{Id=1; Desc=None}; {Id=2; Desc=Some "stuff"}]
       let jsons = JsonConvert.SerializeObject(items, OptionConverter())

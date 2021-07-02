@@ -1,6 +1,6 @@
 namespace Acadian.Json.Fs
 
-module FsJsonConverters =
+module JsonConverters =
 
   open System
   open Microsoft.FSharp.Reflection

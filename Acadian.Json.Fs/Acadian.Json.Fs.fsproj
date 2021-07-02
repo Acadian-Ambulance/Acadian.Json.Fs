@@ -5,7 +5,7 @@
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Authors>Acadian Ambulance Service</Authors>
     <Description>
-      Extends Newtonsoft.Json by adding FsJsonConverters like OptionConverter
+      Extends Newtonsoft.Json by adding JsonConverters like OptionConverter
     </Description>
     <PackageProjectUrl>https://github.com/Acadian-Ambulance/Acadian.Json.Fs</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="FsJsonConverters.fs" />
+    <Compile Include="JsonConverters.fs" />
     <None Include="../LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
   </ItemGroup>
 
@@ -22,6 +22,10 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.7.2" />
   </ItemGroup>
 
 </Project>
