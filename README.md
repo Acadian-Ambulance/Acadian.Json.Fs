@@ -3,10 +3,16 @@
 Adds extensions for Newtonsoft.Json
 
 ## Dependencies
-- just 0.9.5
 - dotnet v5.0.103
-- fantomas v4.4.0 (dotnet tool install -g fantomas-tool)
-- dotnet fsharplint (dotnet tool install -g dotnet-fsharplint)
+
+## Development Dependencies
+- just 0.9.5 - command runner
+- fantomas v4.4.0 - code formatting tool (dotnet tool install -g fantomas-tool)
+- dotnet fsharplint - code linter (dotnet tool install -g dotnet-fsharplint)
+
+# Development Tools
+- VS Code
+- VS Code Extension ionide.ionide-fsharp
 
 ## Module Extensions
 
