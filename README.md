@@ -1,6 +1,22 @@
 # Acadian.Json.Fs
 
-Adds extensions for Newtonsoft.Json
+Adds extensions for Newtonsoft.Json for FSharp
+
+## Json Converters
+
+All converters require these imports:
+
+```
+open Newtonsoft.Json
+open Acadian.Json.Fs.JsonConverters
+```
+
+- OptionConverter - Converts option types to nullable as expected in jsons
+
+  Ex:
+  ```
+  let jsons = JsonConvert.SerializeObject(items, OptionConverter())
+  ```
 
 ## Dependencies
 - dotnet v5.0.103
@@ -14,11 +30,8 @@ Adds extensions for Newtonsoft.Json
 - VS Code
 - VS Code Extension ionide.ionide-fsharp
 
-## Module Extensions
-
-Adds JsonConverters:
-  - OptionConverter
-
-  Ex:
-  > let jsons = JsonConvert.SerializeObject(items, OptionConverter())
+# Building/Running/Testing
+- Uses dotnet cli
+Ex: To run tests
+> dotnet test
 
