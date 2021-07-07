@@ -1,5 +1,9 @@
-[*.fs]
+[*]
+end_of_line=lf
+charset=utf-8
 indent_size=2
+
+[*.fs]
 max_line_length=120
 fsharp_semicolon_at_end_of_line=false
 fsharp_space_before_parameter=true
@@ -37,3 +41,4 @@ fsharp_keep_indent_in_branch=false
 fsharp_blank_lines_around_nested_multiline_expressions=false
 fsharp_bar_before_discriminated_union_declaration=false
 fsharp_strict_mode=false
+
