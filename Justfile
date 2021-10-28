@@ -1,4 +1,4 @@
-# vim: set filetype=bash :
+# vim: filetype=bash
 
 format:
   which fantomas && find . -type f -name "*.fs" -not -path "*/obj/*" -not -path "*/bin/*" -exec fantomas "{}" \;
