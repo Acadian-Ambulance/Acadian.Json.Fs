@@ -23,7 +23,6 @@ open Acadian.Json.Fs.JsonConverters
 
 ## Development Dependencies
 - just (command runner) v0.10.0
-- fantomas v4.4.0 - code formatting tool (dotnet tool install -g fantomas-tool)
 - dotnet fsharplint - code linter (dotnet tool install -g dotnet-fsharplint)
 
 # Development Tools
